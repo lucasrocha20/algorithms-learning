@@ -1,0 +1,26 @@
+{
+    "name": "algorithms-study",
+    "version": "1.0.0",
+    "description": "Projeto para estudo e prática de algoritmos com TypeScript",
+    "type": "module",
+    "scripts": {
+        "dev": "tsx watch src/exercises/**/*.ts",
+        "run": "tsx",
+        "all": "tsx src/runner.ts",
+        "test": "tsx src/exercises/**/*.test.ts",
+        "test:arrays": "tsx src/exercises/arrays/*.test.ts",
+        "exercise": "tsx src/exercises/"
+    },
+    "keywords": [
+        "algorithms",
+        "typescript",
+        "study"
+    ],
+    "author": "",
+    "license": "MIT",
+    "devDependencies": {
+        "@types/node": "^25.3.5",
+        "tsx": "^4.7.0",
+        "typescript": "^5.3.3"
+    }
+}
